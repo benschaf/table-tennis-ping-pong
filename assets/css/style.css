@@ -1,17 +1,34 @@
 body {
     background-color: black;
+    /* override default body margin */
     margin: 0;
 }
 
+/* Header and Navbar */
 header {
     background-color: purple;
+    /* Fix header bar to the top of the viewport and make it 
+       appear as a rounded rectangle */
     position: fixed;
-    top: 8px;
-    right: 8px;
     left: 8px;
+    right: 8px;
+    top: 8px;
     border-radius: 5px;
+    /* stick logo to the left and navbar to the right of the header */
     display: flex;
     justify-content: space-between;
+    padding: 0 8px;
+}
+
+nav > ul {
+    /* list items horizontally with gap */
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+}
+
+nav li {
+
 }
 
 main {
