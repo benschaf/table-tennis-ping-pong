@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: purple;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    left: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: gray;
+
+}
