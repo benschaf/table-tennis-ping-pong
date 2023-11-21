@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap');
+
 /* override default styles added by the browser */
 * {
     margin: 0;
@@ -7,9 +9,11 @@
 body {
     /* override default body margin */
     margin: 0;
+    /* push footer to bottom with flex properties */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
@@ -55,6 +59,7 @@ nav>ul {
 
 /* Main element */
 main {
+    /* enlarge main section to push footer to bottom */
     flex: 1 0 auto;
 }
 
