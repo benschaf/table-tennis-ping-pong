@@ -106,3 +106,26 @@ main {
 #img-clickball-racket>img {
     width: 100%;
 }
+
+/* Timeline Section */
+#timeline-vertical-container {
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#timeline-line {
+    flex-grow: 8;
+}
+
+#timeline-events {
+    background-color: purple;
+    border-radius: 5px;
+    padding: 1rem;
+    flex-grow: 2;
+}
+
+#timeline-events img {
+    width: 100%;
+}
