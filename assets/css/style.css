@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Header and Navbar */
 header {
     background-color: purple;
@@ -20,13 +25,18 @@ header {
     padding: 0 .5em;
 }
 
-nav > ul {
+nav>ul {
     margin: .5em 0;
     /* list items horizontally with gap */
     display: flex;
     align-items: center;
     gap: 1em;
     list-style-type: none;
+    font-size: 16px;
+}
+
+#nav-gallery-icon {
+    font-size: 2rem;
 }
 
 #nav-newsletter-button {
