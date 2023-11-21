@@ -60,4 +60,5 @@ nav>ul {
     width: 75vw;
     color: #dddddd;
     padding-right: 2rem;
+    border-radius: 5px 0 0 5px;
 }
