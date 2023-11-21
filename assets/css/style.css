@@ -52,10 +52,12 @@ nav>ul {
 }
 
 #hero-title {
+    background-color: rgba(100, 100, 100, .8);
     position: absolute;
-    top: 80px;
+    top: 120px;
     right: 0;
-    margin-right: 2rem;
     text-align: right;
     width: 75vw;
+    color: #dddddd;
+    padding-right: 2rem;
 }
