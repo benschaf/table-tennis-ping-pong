@@ -102,3 +102,7 @@ main {
     margin: 5px;
     border-radius: 5px;
 }
+
+#img-clickball-racket>img {
+    width: 100%;
+}
