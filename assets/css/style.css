@@ -16,6 +16,10 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -80,4 +84,21 @@ main {
     color: #dddddd;
     padding-right: 2rem;
     border-radius: 5px 0 0 5px;
+}
+
+/* Differences Section */
+#differences {
+    margin-top: 20px;
+}
+
+#differences>h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#differences>div {
+    background-color: purple;
+    padding: 1rem;
+    margin: 5px;
+    border-radius: 5px;
 }
