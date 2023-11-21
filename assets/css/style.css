@@ -17,18 +17,22 @@ header {
     /* stick logo to the left and navbar to the right of the header */
     display: flex;
     justify-content: space-between;
-    padding: 0 8px;
+    padding: 0 .5em;
 }
 
 nav > ul {
+    margin: .5em 0;
     /* list items horizontally with gap */
     display: flex;
+    align-items: center;
     gap: 1em;
     list-style-type: none;
 }
 
-nav li {
-
+#nav-newsletter-button {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* Hero Section */
